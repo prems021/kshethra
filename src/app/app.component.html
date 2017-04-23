@@ -1,0 +1,21 @@
+
+<div *ngIf="!logged">
+
+<router-outlet></router-outlet>
+
+
+</div>
+
+<div *ngIf="logged">
+
+<app-header></app-header>
+
+  <md-sidenav-container>
+
+
+  </md-sidenav-container>
+
+</div>
+
+
+<router-outlet></router-outlet>

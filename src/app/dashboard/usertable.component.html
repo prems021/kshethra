@@ -1,0 +1,21 @@
+
+<table class="user-table">
+  <tr>
+    <th>id</th>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>email</th>
+  </tr>
+  <tr *ngFor="let star of parsedata" >
+
+    <td>{{star._id}}  </td>
+    <td>{{star.firstname}}</td>
+    <td>{{star.lastname}}</td> 
+    <td>{{star.email}}</td>
+  </tr>
+  
+</table>
+
+
+<button type="button" class="btn-default"  (click)="booknow()" > Book Now
+</button>

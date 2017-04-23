@@ -1,0 +1,38 @@
+  
+ 
+      <div class="col-sm-6" class="login-box" >
+                     <md-card class="login-card">
+                                <md-card-title class="login-title">
+                                                     <h3>   ക്ഷേത്ര  </h3>
+                                </md-card-title>
+                <md-card-content>
+
+                    <form [formGroup]="myForm" novalidate (ngSubmit)="login()" #vazhipadForm="ngForm">
+                      <table style="width: 100%" cellspacing="0"><tr>
+                      <div> <p> 
+                                   <md-input-container>
+                           
+                           
+                                      <input mdInput placeholder="username" style="width: 100%"   formControlName="username" >   
+
+
+                                  </md-input-container> </p> </div>
+
+
+                          <div>
+                                <md-input-container>
+                                <input mdInput placeholder="password " input type="password" formControlName="password" name="psw" style="width: 100%">
+                                
+                                 </md-input-container>
+                                </div>
+                               
+                        </tr></table>
+                         <div class="button text-right" (click)="login()"> <button md-raised-button>LOGIN</button> </div>
+     
+                   </form>
+                  </md-card-content>
+
+                                                                                         
+                                                                                     
+                  </md-card>                                                                                   
+      </div>

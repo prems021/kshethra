@@ -1,0 +1,42 @@
+login-card{
+    background-color: #ff6655;
+    align-items: center;
+}
+.color{
+background-color: #ff6655;
+}
+.button{
+    align-items: center;
+ 
+}
+.login-box
+{
+  border: 2px solid darkgoldenrod;
+  
+  width:30%;
+  margin: auto;margin-top: 15%;
+ 
+  }
+@media screen and (max-width: 852px) {
+    .login-box
+    {
+        width:60%;
+      
+    }
+   
+}
+@media screen and (max-width: 528px) {
+    .login-box
+    {
+        width:100%;
+        
+    }
+   
+}
+
+.mat-card-title {
+    font-size: 24px;
+    font-weight: 400;
+    background-color: sandybrown;
+    text-align: center;
+}
