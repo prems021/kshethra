@@ -4,7 +4,7 @@ const publicRouter: Router = Router();
 
 var Sequelize = require('Sequelize');
 
- var sequelize = new Sequelize('mariadb://root:arshavin021@localhost:3306/tas');
+ var sequelize = new Sequelize('mysql://u519997597_admin:arshavin021@mysql.hostinger.in:3306/u519997597_ks');
 
 sequelize
   .authenticate()
